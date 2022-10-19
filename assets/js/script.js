@@ -200,7 +200,7 @@ function fileValidate(fileType, fileSize) {
   // If The Uploaded File Is An Image
   if (isImage.length !== 0) {
     // Check, If File Size Is 2MB or Less
-    if (fileSize <= 5000000) { // 2MB :)
+    if (fileSize <= 50000000) { // 2MB :)
       return true;
     } else { // Else File Size
       return alert('Please Your File Should be 2 Megabytes or Less');
