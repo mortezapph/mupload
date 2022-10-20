@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap">
 <link rel="stylesheet" href="./assets/css/style.css">
 
+
 </head>
 <body>
 <!-- partial:index.partial.html -->
@@ -28,6 +29,7 @@
 
   <!-- Drop Zoon -->
   <form action="" method="post" enctype="multipart/form-data">
+
   <div id="dropZoon" class="upload-area__drop-zoon drop-zoon">
     <span class="drop-zoon__icon">
       <i class='bx bxs-file-image'></i>
@@ -37,7 +39,8 @@
     <img src="" alt="Preview Image" id="previewImage" class="drop-zoon__preview-image" draggable="false">
     <input name="file" type="file" id="fileInput" class="drop-zoon__file-input" accept="">
     
-  </div><button type="submit">upload</button>
+    
+  </div><input name="userid" type="number" placeholder="شماره تلفن را وارد کنید" required ><br><button type="submit">upload</button>
 </form>
   <!-- End Drop Zoon -->
 
@@ -60,6 +63,7 @@
   
   <!-- End File Details -->
 </div>
+
 <!-- End Upload Area -->
 <!-- partial -->
   <script  src="./assets/js/script.js"></script>

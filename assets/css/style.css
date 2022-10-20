@@ -317,3 +317,6 @@
     font-size: 1rem;
     color: var(--clr-light-gray);
   }
+  .inputt-admin{
+    display: none;
+  }
